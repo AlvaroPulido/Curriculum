@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alvaro Pulido - Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/Estilo.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/unslider.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/unslider.js"></script>
+  </head>
+  <body>
+    <div class="izquierda">
+     <img class="image" src="alvaro.jpg" alt="Imagen">
+     <ul class="reordenar">
+      <li><a href="#presentacion">Presentacion</a></li>
+      <li><a href="#formacion">Formacion</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+     </ul>
+    </div>
+    <div class="derecha">
+      <div id="presentacion">
+        <h1>¿Quien soy?</h1>
+        <h2>Alvaro Pulido</h2>
+      </div>
+      <div class="iniciocv">
+       <h3>Front-end Jr</h3>
+       <h4>Datos Personales:</h4>
+       <ul>
+         <li class="li_presentacion"><strong>Nombre: </strong> Alvaro Ariel</li>
+         <li class="li_presentacion"><strong>Apellido: </strong> Pulido Trejo</li>
+         <li class="li_presentacion"><strong>Edad: </strong>18</li>
+         <li class="li_presentacion"><strong>DNI:  </strong>40808748</li>
+         <li class="li_presentacion"><strong>Direccion: </strong>Dorrego 1453</li>
+         <li class="li_presentacion"><strong>E-mail: </strong>alvaropulido20@gmail.com</li>
+         <li class="li_presentacion"><strong>Telefono: </strong>4771-1228</li>
+         <li class="li_presentacion"><strong>Celular: </strong>15-6498-2892</li>
+         <li class="li_presentacion"><strong>Facebook: </strong>Alvaro Pulido</li>
+         <li class="li_presentacion"><strong>Skype: </strong>Alvaro Pulido</li>
+       </ul>
+       <h4>Descripcion personal</h4>
+       <p> Estoy terminando la secundaria, tengo ganas de trabajar en algo que tenga que ver con mis intereses labores, la construccion.
+       Me gusta trabajar tanto individualmente como en equipo, soy una persona muy responsable y social con lo cual me puedo adaptar a diferentes ambitos de trabajo.</p>
+      </div>
+      <div id="formacion">
+        <div class="Formacion">
+         <h3>Formacion</h3>
+         <h4>Escuela Tecnica N°9 "Ingeniero Luis A. Huergo"</h4>
+         <p>Estoy terminando de cursar para obtener el titulo de maestro mayor de obra. Elegi esta especialidad porque me interesa todo lo que tiene que ver con la construccion y mas especificamente los planos cosntructivos.
+            me gustan todas las materias de la especialidad pero las que son practicas son en las que tengo mejores notas.Espero poder terminar la secundaria y estudiar arquitectura en la universidad.</p>
+         <h4>Curso HTML-ACAMICA</h4>
+         <p>El curso es muy completo me ayudo a entender la manera en la que trabaja la internet, las paginas web y las informacion que pasan a traves de ellas. Una de las cosas mas importante es el "idioma" con el
+            cual uno se programa las paginas web, el diseño y el contenido que tiene estas dentro de si. Con esto uno puede desde crear una simple pagina web hasta un complejo juego.</p>
+        </div>
+      </div>
+      <div id="experiencia">
+        <div class="Experiencia">
+          <h3>Experiencia</h3>
+          <p>No tengo experiencia profesional porque aun no termine el secundario pero si trabaje dando clases de ingles a niños de primaria, trabaje de cadete de un laboratorio dental y como ayudante de contruccion.
+             Me gustaria trabajar en alguna empresa constructora o en algo que tenga que ver con mis intereses laborales. Otra posibilidad laboral tambien podria ser la programacion. </p>
+        </div>
+      </div>
+      <div id="portfolio">
+        <div class="Portfolio">
+          <h3>Portfolio</h3>
+          <div class="slider">
+          <ul>
+            <li><iframe src="recursos-sitionoticias/telam.html" width="600" height="600"></iframe></li>
+            <li><iframe src="rompecabezas/juego.html" width="650" height="600"></iframe></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    <script>
+   jQuery(document).ready(function($) {
+     $('.slider').unslider({
+       arrows: true,
+       autoplay: false
+
+     });
+   });
+ </script>
+  </body>
+</html>

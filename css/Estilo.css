@@ -1,0 +1,69 @@
+selector{
+  propiedad: Parámetro
+}
+h1{
+  font-size: 25px;
+  color: rgb(18, 3, 57);
+  border-bottom: 3px solid rgb(18, 3, 57);
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+h2{
+  font-size: 45px;
+  color: rgb(18, 3, 57);
+  text-transform: uppercase;
+}
+h3{
+  font-size: 28px;
+  color: rgb(18, 3, 57);
+  text-align: left;
+  border-bottom: 3px solid rgb(18, 3, 57);
+}
+h4{
+  font-size: 22px;
+  color:rgb(18, 3, 57);
+  text-transform: uppercase;
+}
+.iniciocv , .Formacion, #presentacion, .Portfolio, .Experiencia{
+  background-color: white;
+  border: 3px solid rgb(18, 3, 57);
+  padding: 30px;
+  border-radius: 35px;
+  margin-bottom: 35px;
+}
+#presentacion{
+  background-color:orange;
+  text-align:center;
+}
+.Formacion, .Experiencia, .Portfolio{
+  padding-top: 0px;
+}
+body{
+  background-color: rgb(215, 215, 215);
+}
+.derecha{
+  float: right;
+  width: 65%;
+}
+.izquierda{
+  float: left;
+  width: 30%;
+  position: fixed;
+}
+.li_presentacion{
+color:black;
+font-size: 20px;
+border-bottom: 1px solid black;
+}
+p{
+  font-size: 17px;
+}
+.reordenar{
+  list-style: none;
+  padding: 0;
+}
+.image{
+ width: 100%;
+ border: 5px solid rgb(18, 3, 57);
+}
